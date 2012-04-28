@@ -40,7 +40,7 @@ PRODUCT_PACKAGES += \
     Camera
 
 # Hardware permissions
-PRODUCT_COPY_FILES := \
+PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
     frameworks/base/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
     frameworks/base/data/etc/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml \
